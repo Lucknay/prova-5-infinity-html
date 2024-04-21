@@ -1,0 +1,55 @@
+.cabecalho{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  height:59px;
+  padding: 0  40px
+
+}
+
+
+
+.naveg{
+
+    display: flex;
+}
+
+
+.listinha{
+display: flex;
+gap: 40px;
+
+}
+
+.itens_lista{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    }
+
+
+    body{
+
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: center;
+        font-size: 2rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://media.licdn.com/dms/image/D4D22AQFG4k5mYaxo5w/feedshare-shrink_800/0/1708139379872?e=2147483647&v=beta&t=qVHfsrOBlRBtMTpXRfcxJ3qXlbi51IXpw6SXWCxQAec);
+    }
